@@ -227,3 +227,46 @@ header{
     margin-bottom: 30px;
     width: 100%;
 }
+
+.features{
+    background: url(/images/Rectangle\ 5.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.features .container{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 40px;
+    padding-bottom: 40px;
+}
+
+.features-title{
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    line-height: 170%;
+}
+
+.features-discription{
+    text-align: center;   
+}
+
+.features-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.features-info_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
