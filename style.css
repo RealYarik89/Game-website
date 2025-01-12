@@ -27,7 +27,7 @@ img{
 }
 
 .container{
-    width: 1000px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -85,7 +85,7 @@ header{
     border-bottom: 5px solid #DC7000;
 }
 
-.nav-btn{
+.nav-btn, .subscribe-btn{
     color: #fff;
     background: #FA9021;
     padding: 9px 17px;
@@ -161,7 +161,7 @@ header{
     font-weight: 600;
 }
 
-.trending--btn{
+.trending--btn, .projects--btn{
     color: #fff;
     font-size: 20px;
     font-weight: 500;
@@ -172,7 +172,7 @@ header{
     transition: all 0.5s ease;
 }
 
-.trending--btn:hover{
+.trending--btn:hover, .projects--btn:hover{
     transform: scale(1.1);
 }
 
@@ -269,4 +269,138 @@ header{
     justify-content: center;
     align-items: center;
     row-gap: 10px;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    row-gap: 30px;
+}
+
+.projects-title{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.projects-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 20px;
+}
+
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding: 10px;
+}
+
+.subscribe-title{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.subscribe-block{
+    display: flex;
+    justify-content: space-around;
+    background: #1C140F;
+    padding: 30px 20px;
+    align-items: center;
+    border-radius: 15px;
+    margin-bottom: 70px;
+}
+
+.subscribe-block_text{
+    width: 636px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.subscribe-block_text h4{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.subscribe-block_text p{
+    font-size: 17px;
+}
+
+.subscribe-form input{
+    width: 387px;
+    outline: none;
+    background: #fff;
+    padding: 12px;
+    padding-right: 120px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    border-radius: 10px;
+    border: none;
+    font-size: 13px;
+    position: relative;
+    right: -100px;
+    z-index: 1;
+}
+
+.subscribe-form input::placeholder{
+    color: #898989;
+}
+
+.subscribe-btn{
+    position: relative;
+    z-index: 2;
+}
+
+.footer{
+    background: #070707;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.footer hr{
+    width: 100%;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    padding: 10px 30px;
+}
+
+.footer-aboutUs{
+    width: 300px;
+}
+
+.footer-aboutus_list{
+    list-style: none;
+}
+
+.footer-aboutus_list__item a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-soc1al{
+    justify-content: end;
+}
+
+.footer-soc1al_list{
+    list-style: none;
+    display: flex;
 }
